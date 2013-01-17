@@ -20,7 +20,7 @@ $(document).ready(function() {
             //loop through the items
             var infiniteLoop = setInterval(function(){
                 if(currentItem == numberOfItems -1){currentItem = 1;}else{currentItem++;}
-				$('#fire_image').attr('src','img/feuer.0000' + currentItem + '.jpg').trigger('create');
+				$('#fire_image').attr('src','img/IMG_0135.0000' + currentItem + '.jpg').trigger('create');
             }, itemInterval);
         }
     };
