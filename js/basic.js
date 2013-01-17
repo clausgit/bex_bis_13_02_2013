@@ -50,40 +50,6 @@ $(function () {
 
 
 	
-/*
-
-		//loop through the items
-		var numberOfItems = 10;
-		var currentItem = 0;
-
-		var infiniteLoop = setInterval(function(){
-
-			$('#fire_image').attr('src','img/feuer.0000' + i + '.gif');
-
-			if(currentItem == numberOfItems -1){
-				currentItem = 0;
-			}else{
-				currentItem++;
-			}
-			}, 1000);
-
-
-
-	var fire = {}
-		var $numberOfItems = 10;
-		    i = 1;
-
-
-		fire.loop = function(){
-			$('#fire_image').attr('src','img/feuer.0000' + i + '.gif').delay(1000).fire.loop();
-
-		    i = ++i % $numberOfItems;
-		$('#counter').html(i).trigger('create');
-		}
-
-		fire.loop();
-
-*/
 
 
 
