@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-<gap:splash src="iphone_splash.png" />
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "de.idealsystem.bex"
+    version   = "2.2.0">
+    <name>Rechtsanwalt Bex</name>
+    
+    <description>
+        Rechtsanwalt Bex
+    </description>
+    
+    <author href="http://www.idealsystem.de" email="info@idealsystem.de">
+        idealsystem.de
+    </author>
+    
+    <feature name="http://api.phonegap.com/1.0/device" />
+    
+    <preference name="phonegap-version" value="2.2.0" />
+    <preference name="orientation"      value="default" />
+    <preference name="target-device"    value="handset" />
+    <preference name="fullscreen"       value="false" />
+    
+    <icon src="icon_retina.png" />
+
+    <gap:splash src="iphone_splash.png" />
+    
 </widget>
