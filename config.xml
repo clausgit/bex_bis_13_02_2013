@@ -19,7 +19,8 @@
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="handset" />
     <preference name="fullscreen"       value="false" />
-    
+	<preference name="prerendered-icon" value="true" />
+
     <icon src="icon_retina.png" />
 
     <gap:splash src="screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
